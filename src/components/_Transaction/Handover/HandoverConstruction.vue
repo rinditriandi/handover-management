@@ -1000,7 +1000,7 @@ export default {
                 //     this.input.ProductID = data.ProductID;
                 //     this.input.idx_sbp = data.IDX_SBP
                 //     this.dialog1 = true;
-
+                // come this is nnote
                 // }
             }
             else if (param == 'dialog2') {

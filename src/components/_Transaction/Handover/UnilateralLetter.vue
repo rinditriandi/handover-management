@@ -1468,7 +1468,7 @@ export default {
 
         testPrint(id) {
             // this.ajaxGo('GET', this._handover + '/testdoc', null, true, false, false)
-            window.open('http://10.10.0.51:9014/web/handover/unilateral-letterprint?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
+            window.open('http://10.10.0.23:9014/web/handover/unilateral-letterprint?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
         }
     }
 }

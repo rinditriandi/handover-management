@@ -1435,13 +1435,13 @@ export default {
 
         testPrint(id, tipe) {
             if(tipe == 'RUMAH') {
-                window.open('http://10.10.0.51:9014/web/handover/handover-letterprint2-rumah?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
+                window.open('http://10.10.0.23:9014/web/handover/handover-letterprint2-rumah?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
             }
             else if(tipe == 'RUKO') {
-                window.open('http://10.10.0.51:9014/web/handover/handover-letterprint2-ruko?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
+                window.open('http://10.10.0.23:9014/web/handover/handover-letterprint2-ruko?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
             }
             else if(tipe == 'KAVLING') {
-                window.open('http://10.10.0.51:9014/web/handover/handover-letterprint2-kavling?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
+                window.open('http://10.10.0.23:9014/web/handover/handover-letterprint2-kavling?id=' + id + '&&sessionid=' + this._sessionid + '&&formid=' + this.formid);
             }
       
         }

@@ -11,9 +11,9 @@ Vue.use(Vuex)
 /* ======================== DECLARE CONSTANTA ========================  */
 
 // general
-// const _serviceUrl = "http://localhost:9004/web/"; // localhost
-const _serviceUrl = "http://10.10.0.51:9014/web/"; // development
-//const _serviceUrl = "http://localhost:9001/web/"; // production
+const _serviceUrl = "http://localhost:9014/web/"; // localhost
+// const _serviceUrl = "http://10.10.0.51:9014/web/"; // development
+// const _serviceUrl = "http://10.10.0.23:9014/web/"; // production
 
 
 const _longApplicationName = "Alam Sutera - Handover Customer";
